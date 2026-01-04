@@ -1,17 +1,17 @@
 public class SmartHealthApplication {
-  public static void main(string args [])
+  public static void main(String []args){
     int done =0;
     while (done == 0){
-         double bloodsugar =135.0
+         double bloodsugar =135.0;
          double BMI= 32.5;
          if(bloodsugar > 126 && BMI> 30){
-           System.out.println(“The Risk Assessment is High Risk !!”);
+           System.out.println("The Risk Assessment is High Risk !!");
          }
 
          else {
-           System.out.println(“The Risk Assessment is Low Risk !!”);
+           System.out.println("The Risk Assessment is Low Risk !!");
          }
-         Done = 1;
+         done = 1;
       }
    }
 }
